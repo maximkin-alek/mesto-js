@@ -1,0 +1,14 @@
+.error-messege {
+    display: inline-block;
+    min-height: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF0000;
+    position: relative;
+}
+.error-messege:first-of-type {
+    top: -20px;
+}
