@@ -12,7 +12,7 @@
 <body>
   <div class="root">
     <header class="header root__section">
-      <img src="<%=require('./images/logo.svg').default%>"  alt="mesto logo" class="logo">
+      <img src="<%=require('./images/logo.svg')%>"  alt="mesto logo" class="logo">
     </header>
     <div class="profile root__section">
       <div class="user-info">
@@ -30,7 +30,7 @@
 
     <div class="popup popup-add-card">
       <div class="popup__content">
-        <img src="<%=require('./images/close.svg').default%>" alt="" class="popup__close popup-add-card__close">
+        <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close popup-add-card__close">
         <h3 class="popup__title">Новое место</h3>
         <form class="popup__form" name="new" id="form-add">
           <input type="text" name="name" id="title" class="popup__input popup__input_type_name" minlength="2" maxlength="30" placeholder="Название" required>
@@ -45,7 +45,7 @@
 
     <div class="popup popup-edit-card">
       <div class="popup__content">
-        <img src="<%=require('./images/close.svg').default%>" alt="" class="popup__close popup-edit-card__close">
+        <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close popup-edit-card__close">
         <h3 class="popup__title">Редактировать профиль</h3>
         <form class="popup__form" name="new" id="form-edit">
           <input type="text" name="name" id="name" class="popup__input popup__input_type_author-name" required minlength="2" maxlength="30" placeholder="Имя">
@@ -59,14 +59,14 @@
 
     <div class="popup popup-image">
       <div class="popup-image__content">
-        <img src="<%=require('./images/close.svg').default%>" alt="" class="popup__close popup-image__close">
+        <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close popup-image__close">
         <img src="" alt="" class="popup-image__picture"></img>
       </div>
     </div>
 
     <div class="popup popup-avatar">
       <div class="popup__content">
-        <img src="<%=require('./images/close.svg').default%>" alt="" class="popup__close popup-avatar__close">
+        <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close popup-avatar__close">
         <h3 class="popup__title">Обновить аватар</h3>
         <form class="popup__form" name="new" id="form-avatar">
           <input name="link" type="url" class="popup__input popup-avatar_type_link-url"
