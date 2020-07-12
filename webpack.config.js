@@ -26,6 +26,7 @@ module.exports = {
                 {
                     loader: 'file-loader',
                     options: {
+
                         name: './images/[name].[ext]',
                         esModule: false
                     }
