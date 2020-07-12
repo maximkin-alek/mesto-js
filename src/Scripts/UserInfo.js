@@ -1,4 +1,4 @@
-class UserInfo {
+export class UserInfo {
     // Принимает элементы с данными пользователя
     constructor(userName, userInfo, api) {
         this._userName = userName;

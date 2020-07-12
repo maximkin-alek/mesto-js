@@ -1,4 +1,6 @@
-class PopupImage extends Popup {
+import {Popup} from './Popup'
+
+export class PopupImage extends Popup {
     constructor(popup, listenerClose, listenerOpen, newPopup) {
         super(popup, listenerClose, listenerOpen)
         this._newPopup = newPopup;

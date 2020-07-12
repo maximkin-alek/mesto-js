@@ -1,4 +1,4 @@
-class Form {
+export class Form {
   constructor(argList) {
     this._obj = argList.popupCard;
     this._cardTitle = argList.cardTitle;
