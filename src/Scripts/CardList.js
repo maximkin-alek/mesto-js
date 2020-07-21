@@ -1,4 +1,4 @@
-class CardList {
+export class CardList {
     constructor(elem, api, createNewCard, openImage) {
         this._elem = elem;
         this._api = api;

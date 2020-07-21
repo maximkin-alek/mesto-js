@@ -1,4 +1,4 @@
-class Card {
+export class Card {
 
     constructor(obj, openImage, api) {
         this._obj = obj;
