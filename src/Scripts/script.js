@@ -53,7 +53,7 @@ const buttonCloseAvatar = document.querySelector('.popup-avatar__close');
 const formAvatar = document.querySelector('#form-avatar');
 const formAvatarLink = document.querySelector('.popup-avatar_type_link-url');
 
-const API_URL = NODE_ENV === 'production' ? 'https://praktikum.tk' : 'http://praktikum.tk';
+const API_URL = NODE_ENV === 'production' ? 'https://nomoreparties.co' : 'http://nomoreparties.co';
 const key = '08592843-ad5c-47f3-9530-a9ac7ac430b9';
 const url = `${API_URL}/cohort11`
 const api = new Api(key, url);
