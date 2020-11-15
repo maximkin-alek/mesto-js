@@ -140,19 +140,3 @@ formAddCard.setListeners();
 new FormValidator(formEdit, errorMessages, buttonCloseFormEdit);
 new FormValidator(formAdd, errorMessages, buttonCloseFormAdd);
 new FormValidator(formAvatar, errorMessages, buttonCloseAvatar);
-
-
-
-/*
- Что понравилось:
- - Выполнено задание с добавлением карточки
- - Отображается количество лайков, есть возможность их проставить и удалить.
- - Есть возможность обновить аватар
- - Есть возможность удалить карточку
- - Есть возможность добавить карточку
- - Показывается "Загрузка"
- Можно лучше:
- - Разобраться со способом построения класса API на async/await
- Полезные материалы:
- Статья про построение async/await API на английском https://dev.to/shoupn/javascript-fetch-api-and-using-asyncawait-47mp
- */
