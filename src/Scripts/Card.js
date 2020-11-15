@@ -20,7 +20,6 @@ export class Card {
         const cardItem = document.createElement('div');
         cardItem.classList.add('place-card');
 
-
         const cardImage = document.createElement('div');
         cardImage.classList.add('place-card__image');
         // берем фоновое изображение из массива
